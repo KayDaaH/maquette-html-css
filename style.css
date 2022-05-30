@@ -115,7 +115,7 @@ a {
   flex-direction: row;
   overflow: hidden;
   font-size: 15px;
-  width: 300px;
+  width: 257px;
   justify-content: space-around;
 }
 
@@ -156,6 +156,7 @@ a {
   width: 20px;
   border-radius: 10px 0px 0px 10px;
   padding: 0px 7px;
+  font-size: 15px;
 
   height: 42px;
   background: #f2f2f2;
@@ -172,7 +173,9 @@ a {
   width: 173px;
   left: 30px;
   border: solid 1px #f2f2f2;
+  outline: none;
 }
+
 #search3 {
   display: flex;
   font-size: 13px;
@@ -191,6 +194,10 @@ a {
   background-color: #0065fc;
   color: white;
   /* border: solid 1px #f2f2f2; */
+}
+
+#searchicon {
+  display: none;
 }
 
 #filtre {
@@ -239,6 +246,9 @@ a {
   white-space: nowrap;
   border-radius: 30px;
 }
+.filtre2:hover {
+  background-color: #d9d9d9;
+}
 
 #filtre1 {
   width: 63px;
@@ -260,14 +270,15 @@ a {
   width: 208px;
 }
 
-#information {
-  margin-left: 7px;
+.information {
+  padding-left: 20px;
   display: flex;
   margin-top: 21px;
   margin-bottom: 21px;
   font-size: 15px;
   width: 100%;
   align-items: center;
+  box-sizing: border-box;
 }
 
 #information1 {
@@ -337,6 +348,7 @@ a {
   height: 84px;
   border-radius: 14px 14px 0px 0px;
   margin: 4px;
+  background-size: cover;
 }
 
 #imgcardhebergement1 {
@@ -350,22 +362,22 @@ a {
 }
 
 #imgcardhebergement3 {
-  background-position: 60% 80%;
+  background-position: bottom right;
   background-image: url("./assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
 }
 
 #imgcardhebergement4 {
-  background-position: 100% 60%;
+  background-position: 165px 65%;
   background-image: url("./assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
 }
 
 #imgcardhebergement5 {
-  background-position: center;
+  background-position: center bottom;
   background-image: url("./assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
 }
 
 #imgcardhebergement6 {
-  background-position: 70% 55%;
+  background-position: left bottom 190px;
   background-image: url("./assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
 }
 
@@ -441,6 +453,7 @@ a {
   height: 98px;
   margin: 4px;
   border-radius: 13px 0px 0px 13px;
+  background-size: cover;
 }
 
 #imgcardpopulaire1 {
@@ -508,7 +521,8 @@ a {
   width: 223px;
   height: 288px;
   background-position: center;
-  background-image: url("./assets/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-image: url("./assets/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-size: cover;
 }
 
 #blocactivites2 {
@@ -532,7 +546,8 @@ a {
   width: 223px;
   height: 133px;
   background-position: center;
-  background-image: url("./assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  background-image: url("./assets/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  background-size: cover;
 }
 
 .blocactivites22 {
@@ -548,7 +563,8 @@ a {
   width: 223px;
   height: 81px;
   background-position: center;
-  background-image: url("./assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  background-image: url("./assets/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  background-size: cover;
 }
 
 .blocactivites3 {
@@ -564,7 +580,8 @@ a {
   width: 223px;
   height: 288px;
   background-position: center;
-  background-image: url("./assets/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  background-image: url("./assets/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  background-size: cover;
 }
 
 #blocactivites4 {
@@ -581,6 +598,7 @@ a {
   width: 223px;
   height: 144px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  background-size: cover;
 }
 
 .activitesimg41 {
@@ -588,7 +606,8 @@ a {
   width: 223px;
   height: 103px;
   background-position: center;
-  background-image: url("./assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  background-image: url("./assets/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  background-size: cover;
 }
 
 .blocactivites42 {
@@ -604,7 +623,8 @@ a {
   width: 223px;
   height: 113px;
   background-position: center;
-  background-image: url("./assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  background-image: url("./assets/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  background-size: cover;
 }
 
 footer {
@@ -635,6 +655,16 @@ footer {
 }
 
 @media (max-width: 992px) {
+  header {
+    font-family: "Raleway-Medium", sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+
+    align-items: center;
+    /* background-color: rgba(0, 128, 0, 0.22); */
+    /* align-items: center; */
+  }
   .hebergementpopulaire {
     flex-direction: column-reverse;
     justify-content: flex-start;
@@ -655,6 +685,11 @@ footer {
     display: flex;
     height: 200px;
     justify-content: space-between;
+  }
+  #filtre {
+    margin-left: 0px;
+    padding-left: 10px;
+    box-sizing: border-box;
   }
   #cardspopulaire {
     width: 100%;
@@ -683,12 +718,12 @@ footer {
   .blocsactivites {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    margin: auto;
     align-items: center;
     margin-top: 18px;
     width: 100%;
-    max-width: 992px;
-    height: 1400px;
+    max-width: 90%;
+    height: 1500px;
   }
   #titreactivites {
     margin: 0px 30px;
@@ -697,28 +732,47 @@ footer {
     align-items: center;
     width: 100%;
     max-width: 992px;
-    height: 400px;
-    margin-bottom: 50px;
+    height: 500px;
   }
 
   #blocactivites4 {
     align-items: center;
     width: 100%;
     max-width: 992px;
-    height: 400px;
+    height: 500px;
   }
 
   .blocactivites {
-    width: 700px;
+    width: 100%;
     height: 200px;
     margin-bottom: 50px;
   }
   .activitesimg {
-    width: 700px;
+    width: 100%;
     height: 150px;
+    background-size: cover;
+  }
+  .activitesimg1 {
+    background-image: url("./assets/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-position: center bottom -50px;
+  }
+  .activitesimg21 {
+    background-image: url("./assets/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  }
+  .activitesimg22 {
+    background-image: url("./assets/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  }
+  .activitesimg3 {
+    background-image: url("./assets/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  }
+  .activitesimg41 {
+    background-image: url("./assets/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  }
+  .activitesimg42 {
+    background-image: url("./assets/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
   }
   footer {
-    margin-top: 45px;
+    margin-top: 0px;
     background: #f2f2f2;
     width: 100%;
     max-width: 1066px;
@@ -729,7 +783,9 @@ footer {
     display: flex;
     width: 100%;
     max-width: 992px;
-    margin-left: 37px;
+    margin-left: 0px;
+    padding-left: 37px;
+    box-sizing: border-box;
   }
 
   .blocfooter1 {
@@ -747,6 +803,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+  #blocnavbar {
+    padding-right: 0px;
+  }
+
   main {
     width: 100%;
 
@@ -851,7 +911,6 @@ footer {
     flex-direction: row;
     background: white;
     width: 90%;
-    max-width: 454px;
     min-width: 224px;
     height: 106px;
     margin: 12px 0px;
@@ -859,7 +918,7 @@ footer {
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
   }
   .imgcardpopulaire {
-    width: 114px;
+    width: 40%;
     height: 98px;
     margin: 4px;
     border-radius: 13px 0px 0px 13px;
@@ -869,21 +928,21 @@ footer {
     display: flex;
     position: relative;
     height: 40px;
-    width: 200px;
+    width: 100%;
     justify-content: flex-start;
     margin-right: 28px;
     margin-bottom: 5px;
   }
+
   #filtre {
     font-family: "Raleway-ExtraBold";
     color: black;
     font-size: 13px;
     display: flex;
     width: 100%;
-    min-width: 301px;
-    height: 150px;
+    max-height: 200px;
     margin-top: 28px;
-    margin-left: 20px;
+    margin-left: 0px;
     font-weight: bold;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -899,17 +958,19 @@ footer {
   #familial {
     width: 78px;
   }
-  #information {
-    margin-left: 20px;
+  .information {
+    margin-left: 0px;
     display: flex;
     margin-top: 21px;
     margin-bottom: 21px;
     font-size: 15px;
     width: 100%;
     align-items: center;
+    box-sizing: border-box;
   }
   #information1 {
-    width: 30px;
+    min-width: 20px;
+    width: 20px;
     height: 20px;
     font-size: 14px;
   }
@@ -931,7 +992,6 @@ footer {
   .carhebergement {
     background: white;
     width: 90%;
-    max-width: 454px;
     min-width: 224px;
     height: 106px;
     margin: 12px;
@@ -957,11 +1017,31 @@ footer {
   }
   .imgcardhebergement {
     margin: 3px auto;
-    width: 98%;
-    max-width: 454px;
+    width: 99%;
     min-width: 224px;
     height: 84px;
     border-radius: 14px 14px 0px 0px;
+  }
+  #imgcardhebergement1 {
+    background-image: url("./assets/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+  }
+  #imgcardhebergement2 {
+    background-image: url("./assets/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+  }
+  #imgcardhebergement3 {
+    background-image: url("./assets/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+  }
+  #imgcardhebergement4 {
+    background-image: url("./assets/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center top 180px;
+  }
+  #imgcardhebergement5 {
+    background-image: url("./assets/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+  }
+  #imgcardhebergement6 {
+    background-image: url("./assets/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-position: left bottom -150px;
   }
   .blocsactivites {
     display: flex;
@@ -974,18 +1054,16 @@ footer {
   }
   .blocactivites {
     width: 90%;
-    max-width: 454px;
     min-width: 224px;
-    height: 106px;
+    height: 147px;
     margin: 12px;
     height: 147px;
   }
   .activitesimg {
     margin: 3px auto;
-    width: 98%;
-    max-width: 454px;
+    width: 99%;
     min-width: 224px;
-    height: 84px;
+    height: 94px;
   }
   #blocactivites2 {
     display: flex;
@@ -994,7 +1072,7 @@ footer {
     width: 100%;
     max-width: 768px;
     min-width: 224px;
-    height: 329px;
+    height: 342px;
     margin-bottom: 0px;
   }
   #blocactivites4 {
@@ -1004,14 +1082,13 @@ footer {
     width: 100%;
     max-width: 768px;
     min-width: 224px;
-    height: 329px;
+    height: 342px;
     margin-bottom: 0px;
   }
   footer {
     margin-top: 25px;
     background: #f2f2f2;
     width: 100%;
-    max-width: 768px;
     padding-top: 45px;
     height: 364px;
   }
@@ -1020,20 +1097,23 @@ footer {
     flex-direction: column;
     display: flex;
     width: 100%;
-    max-width: 768px;
-    margin-left: 37px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    padding-left: 20px;
   }
 
   .blocfooter1 {
-    margin-right: 119px;
+    margin-right: 0px;
     margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
   }
   .blocfooter2 {
-    margin-right: 166px;
+    margin-right: 0px;
     margin-bottom: 20px;
   }
   .blocfooter3 {
-    margin-right: 166px;
+    margin-right: 10px;
     margin-bottom: 20px;
   }
   .txtfooter {
@@ -1059,5 +1139,31 @@ footer {
     margin-left: 20px;
     border-spacing: 50px;
     height: 36px;
+  }
+
+  #search3 {
+    display: none;
+  }
+
+  #searchicon {
+    display: flex;
+    font-size: 13px;
+    margin-left: -20px;
+    border-left: solid 1px #ffffff;
+    border-top: solid 1px #0065fc;
+    border-right: solid 1px #0065fc;
+    border-bottom: solid 1px #0065fc;
+
+    font-size: 15px;
+    background: #f2f2f2;
+    height: 40px;
+    border-left: none;
+    border-radius: 10px 10px 10px 10px;
+    width: 46px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0065fc;
+    color: white;
+    /* border: solid 1px #f2f2f2; */
   }
 }
