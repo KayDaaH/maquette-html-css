@@ -398,7 +398,25 @@ a {
   margin-top: 3px;
   color: #0065fc;
 }
-#gris {
+#gris1 {
+  color: #d9d9d9;
+}
+#gris2 {
+  color: #d9d9d9;
+}
+#gris3 {
+  color: #d9d9d9;
+}
+#gris4 {
+  color: #d9d9d9;
+}
+#gris5 {
+  color: #d9d9d9;
+}
+#gris6 {
+  color: #d9d9d9;
+}
+#gris7 {
   color: #d9d9d9;
 }
 .populaire {
@@ -485,7 +503,17 @@ a {
   margin-top: 9px;
 }
 
-#starspopulaire {
+#starspopulaire1 {
+  margin-top: 23px;
+  font-size: 9px;
+  color: #0065fc;
+}
+#starspopulaire2 {
+  margin-top: 23px;
+  font-size: 9px;
+  color: #0065fc;
+}
+#starspopulaire3 {
   margin-top: 23px;
   font-size: 9px;
   color: #0065fc;
