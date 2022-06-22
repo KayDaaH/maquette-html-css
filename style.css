@@ -657,7 +657,7 @@ footer {
   margin-bottom: 15px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   header {
     font-family: "Raleway", sans-serif;
     width: 100%;
@@ -805,7 +805,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #blocnavbar {
     padding-right: 0px;
   }
