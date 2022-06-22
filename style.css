@@ -1,35 +1,10 @@
-@font-face {
-  font-family: "Raleway-Bold";
-  src: url("./assets/fonts/Raleway-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Raleway-Black";
-  src: url("./assets/fonts/Raleway-Black.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Raleway-Regular";
-  src: url("./assets/fonts/Raleway-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Raleway-ExtraBold";
-  src: url("./assets/fonts/Raleway-ExtraBold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Raleway-Medium";
-  src: url("./assets/fonts/Raleway-Medium.ttf") format("truetype");
-}
-
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Raleway-Medium", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 11px;
   display: flex;
   flex-direction: column;
@@ -37,7 +12,7 @@ body {
   align-items: center;
 }
 header {
-  font-family: "Raleway-Medium", sans-serif;
+  font-family: "Raleway", sans-serif;
   width: 100%;
   max-width: 992px;
   display: flex;
@@ -54,7 +29,7 @@ main {
 }
 
 ::placeholder {
-  font-family: "Raleway-ExtraBold";
+  font-family: "Raleway", sans-serif;
   color: black;
   font-size: 13px;
   margin-bottom: 20px;
@@ -62,33 +37,33 @@ main {
 }
 
 h1 {
-  font-family: "Raleway-ExtraBold";
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
 h2 {
-  font-family: "Raleway-ExtraBold";
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
 h3 {
-  font-family: "Raleway-ExtraBold";
+  font-family: "Raleway", sans-serif;
   font-size: 12px;
   margin-bottom: 3px;
 }
 
 h4 {
-  font-family: "Raleway-ExtraBold";
+  font-family: "Raleway", sans-serif;
   font-size: 13px;
   margin-bottom: 3px;
 }
 
 h4 {
-  font-family: "Raleway-ExtraBold";
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
 
@@ -201,7 +176,7 @@ a {
 }
 
 #filtre {
-  font-family: "Raleway-ExtraBold";
+  font-family: "Raleway", sans-serif;
   color: black;
   font-size: 13px;
   display: flex;
@@ -294,7 +269,7 @@ a {
 }
 
 #information2 {
-  font-family: "Raleway-Regular", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 11px;
   display: flex;
   height: 20px;
@@ -390,7 +365,7 @@ a {
   margin-top: 8px;
 }
 .textcardshebergement {
-  font-family: "Raleway-Regular", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 11px;
 }
 .star {
@@ -497,7 +472,7 @@ a {
 }
 
 .textcardspopulaire {
-  font-family: "Raleway-Regular", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 11px;
   padding-bottom: 2px;
   margin-top: 9px;
@@ -684,7 +659,7 @@ footer {
 
 @media (max-width: 992px) {
   header {
-    font-family: "Raleway-Medium", sans-serif;
+    font-family: "Raleway", sans-serif;
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -842,7 +817,7 @@ footer {
     /* background-color: rgba(0, 0, 255, 0.327); */
   }
   header {
-    font-family: "Raleway-Medium", sans-serif;
+    font-family: "Raleway", sans-serif;
     width: 100%;
     max-width: 768px;
     display: flex;
@@ -963,7 +938,7 @@ footer {
   }
 
   #filtre {
-    font-family: "Raleway-ExtraBold";
+    font-family: "Raleway", sans-serif;
     color: black;
     font-size: 13px;
     display: flex;
@@ -1156,8 +1131,7 @@ footer {
     margin-top: 21px;
   }
   h1 {
-    font-family: "Raleway-ExtraBold";
-    font-size: 23px;
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
     margin-bottom: 8px;
   }
